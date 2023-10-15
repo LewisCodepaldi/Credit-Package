@@ -1,0 +1,56 @@
+$log-size: 120px;
+$app-min-width: 80rem;
+$app-max-width: 90rem;
+
+$main: #009bd2;
+$dark-border: #B9C2CA;
+$light-border: #DFE4E9;
+$dark-text: #18335E;
+$light-text: #607497;
+$table-gray: #f9f9f9;
+$link: #009bd2;
+$warning: #CC4040;
+$section-title: #0c6ec1;
+$disabled-text: #9ba6ba;
+$disabled-input-background: #f7f7f9;
+$panel-bg: #f5f6f8;
+$form-border: #b9c2ca;
+$secondary2: #009BD2;
+$card-body: #F7F9FB;
+$status-success: #09A629;
+$status-warning: #F5821F;
+
+$white:  #ffffff !default;
+$gray-100:  #f2f2f2 !default;
+$gray-200:  #e6e6e6 !default;
+$gray-300:  #cccccc !default;
+$gray-400:  #999999 !default;
+$gray-500:  #666666 !default;
+$gray-600:  #333333 !default;
+$black: #000000 !default;
+
+$border-radius: 0.25rem;
+
+$action-button-disabled-text: #9ba6ba;
+$action-button-accent: $main;
+$action-button-normal: $white;
+$action-button-warning: $warning;
+$action-button-disabled: #f2f2f2;
+
+$action-button-hover-overlay: rgba(255, 255, 255, 0.2);
+$action-button-pressed-overlay: rgba(0, 0, 0, 0.1);
+
+$action-button-normal-hover: #fafafa;
+$action-button-normal-pressed: #f5f5f5;
+
+
+$input-height: 1.875rem;
+$family-RobotoLight: FontRobotoLight;
+$family-RobotoRegular: FontRobotoRegular;
+$family-RobotoMedium: FontRobotoMedium;
+
+$checkbox-size: 1rem;
+$short-field-width: 6.8125rem;
+$label-width: 12rem;
+$short-label-width: 5rem;
+$checkbox-card-hover-bg: rgba(0, 155, 210, 0.05);

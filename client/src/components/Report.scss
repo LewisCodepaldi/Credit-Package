@@ -1,0 +1,76 @@
+.explanation-container {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  border-radius: $border-radius;
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+
+  h3 {
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  p {
+    white-space: pre-line;
+    font-family: 'Courier New', Courier, monospace;
+  }
+}
+
+.error-container {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #f00;
+  border-radius: $border-radius;
+  color: #f00;
+  background-color: #fee;
+}
+
+.table-container {
+  margin-top: 20px;
+
+  .financial-analysis-label, .intermediary-values-label {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+
+  .label-cell {
+    text-align: left;
+  }
+
+  .value-cell {
+    text-align: right;
+  }
+
+  table {
+    pointer-events: none;
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid $dark-border;
+
+    th,
+    td {
+      text-align: left;
+      padding: 8px;
+      border: 1px solid $dark-border;
+      pointer-events: auto;
+      user-select: text;
+    }
+
+    th {
+      background-color: $dark-border;
+      color: white;
+      font-weight: bold;
+      text-align: center;
+      padding-top: 12px;
+      padding-bottom: 12px;
+    }
+  }
+}
+
+.hint {
+  font-size: 14px;
+  color: #666;
+  margin-top: 8px;
+}
